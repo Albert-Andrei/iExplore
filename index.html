@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>iExplore</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html" style="background-color: white">
+        <img img src="images/favicon.png" style="width: 80px; z-index: 10" />
+      </a>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="pages/moldova.html">Moldova</a>
+        <a href="pages/romania.html">Romania</a>
+        <a href="pages/italy.html">Italy</a>
+        <a href="pages/contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="image">
+          <img
+            src="images/moldova.jpg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="text">Moldova</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="image">
+          <img
+            src="images/romania.jpeg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="text">Romania</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="image">
+          <img
+            src="images/italy.jpeg"
+            style="width: 100%; height: 100%; object-fit: cover"
+          />
+        </div>
+        <div class="text">Italy</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div style="text-align: center; margin-top: 15px">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <h1 class="separator">Top locations</h1>
+
+    <section class="continer">
+      <img
+        src="images/chisinau.jpeg"
+        style="width: 400px; border-radius: 20px; overflow: hidden"
+      />
+
+      <div class="info">
+        <h1>Chisinau, Moldova</h1>
+        <div class="stats">
+          <img
+            src="images/star.png"
+            style="
+              width: 25px;
+              height: 25px;
+              margin-right: 10px;
+              border-radius: 5px;
+            "
+          />
+          <h3>10</h3>
+        </div>
+        <div class="stats">
+          <img
+            src="images/money.png"
+            style="
+              width: 30px;
+              height: 30px;
+              margin-left: -3px;
+              margin-right: 10px;
+              border-radius: 5px;
+            "
+          />
+          <h3>250 EURO / person</h3>
+        </div>
+
+        <h4 style="margin-top: 10px; margin-bottom: 5px">Description</h4>
+        <p style="margin-bottom: 20px">
+          Chișinău is the capital of Eastern Europe's Republic of Moldova. Amid
+          blocks of Soviet-style architecture are landmarks including the
+          neoclassical Nativity Cathedral. The dome-topped church anchors
+          Chișinău's Cathedral Park, a plaza with a Triumphal Arch celebrating
+          Russia's 19th-century victory over the Ottoman Empire. Stephen the
+          Great Central Park is named for a Moldovan prince who resisted Ottoman
+          rule.
+        </p>
+
+        <a
+          href="https://www.google.com/search?q=Chisinau&oq=Chisinau&aqs=chrome..69i57j69i60.1427j0j1&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+        >
+          Know more
+        </a>
+      </div>
+    </section>
+
+    <section class="continer">
+      <div class="info" style="margin-left: 0px; margin-right: 100px">
+        <h1>Bucharest, Romania</h1>
+        <div class="stats">
+          <img
+            src="images/star.png"
+            style="
+              width: 25px;
+              height: 25px;
+              margin-right: 10px;
+              border-radius: 5px;
+            "
+          />
+          <h3>9.5</h3>
+        </div>
+        <div class="stats">
+          <img
+            src="images/money.png"
+            style="
+              width: 30px;
+              height: 30px;
+              margin-left: -3px;
+              margin-right: 10px;
+              border-radius: 5px;
+            "
+          />
+          <h3>550 EURO / person</h3>
+        </div>
+
+        <h4 style="margin-top: 10px; margin-bottom: 5px">Description</h4>
+        <p style="margin-bottom: 20px">
+          Bucharest, in southern Romania, is the country's capital and
+          commercial center. Its iconic landmark is the massive, communist-era
+          Palatul Parlamentului government building, which has 1,100 rooms.
+          Nearby, the historic Lipscani district is home to an energetic
+          nightlife scene as well as tiny Eastern Orthodox Stavropoleos Church
+          and 15th-century Curtea Veche Palace, where Prince Vlad III (“The
+          Impaler”) once ruled.
+        </p>
+
+        <a
+          href="https://www.google.com/search?q=Buchurest&oq=Buchurest&aqs=chrome..69i57.2097j0j1&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+        >
+          Know more
+        </a>
+      </div>
+
+      <img
+        src="images/bucharest.jpeg"
+        style="width: 400px; border-radius: 20px; overflow: hidden"
+      />
+    </section>
+
+    <section class="continer">
+      <img
+        src="images/rome.jpeg"
+        style="width: 400px; border-radius: 20px; overflow: hidden"
+      />
+
+      <div class="info">
+        <h1>Rome, Italy</h1>
+        <div class="stats">
+          <img
+            src="images/star.png"
+            style="
+              width: 25px;
+              height: 25px;
+              margin-right: 10px;
+              border-radius: 5px;
+            "
+          />
+          <h3>9.8</h3>
+        </div>
+        <div class="stats">
+          <img
+            src="images/money.png"
+            style="
+              width: 30px;
+              height: 30px;
+              margin-left: -3px;
+              margin-right: 10px;
+              border-radius: 5px;
+            "
+          />
+          <h3>700 EURO / person</h3>
+        </div>
+
+        <h4 style="margin-top: 10px; margin-bottom: 5px">Description</h4>
+        <p style="margin-bottom: 20px">
+          Rome is the capital city of Italy. It is also the capital of the Lazio
+          region, the centre of the Metropolitan City of Rome, and a special
+          comune named Comune di Roma Capitale. Rome is the country's most
+          populated comune and the third most populous city in the European
+          Union by population within city limits. The Metropolitan City of Rome,
+          with a population of 4,355,725 residents, is the most populous
+          metropolitan city in Italy
+        </p>
+
+        <a
+          href="https://www.google.com/search?q=Rome&oq=Rome&aqs=chrome..69i57.593j0j1&sourceid=chrome&ie=UTF-8"
+          target="_blank"
+        >
+          Know more
+        </a>
+      </div>
+    </section>
+
+    <div class="contact-text">
+      <a href="https://github.com/Albert-Andrei/iExplore" target="_blank"
+        >View source code</a
+      >
+    </div>
+  </body>
+  <footer>
+    <div class="creators">
+      <h1><span>Author:</span> Moldovanu Diana</h1>
+      <h1><span>Assistant:</span> Moldovanu Alert-Andrei</h1>
+    </div>
+    <div class="f-text">
+      <h3>Contacts</h3>
+      <p>Mail: dianamoldovanu@gmail.com</p>
+      <p>Phone nr: +(373) 669 231 31</p>
+    </div>
+  </footer>
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "flex";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "flex";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+  </script>
+</html>
